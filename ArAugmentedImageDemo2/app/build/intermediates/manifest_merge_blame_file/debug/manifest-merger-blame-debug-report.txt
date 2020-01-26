@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="e.aman.araugmentedimagedemo2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:4:5-64
+11-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:4:22-62
+12
+13    <uses-feature
+13-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:5:5-87
+14        android:name="android.hardware.camera.ar"
+14-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:5:19-60
+15        android:required="true" />
+15-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:5:61-84
+16
+17    <application
+17-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:8:5-23:19
+18        android:allowBackup="true"
+18-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /home/aman/.gradle/caches/transforms-2/files-2.1/6e1d45e522fc69736b8e58b1ab798f71/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:14:9-40
+27        <activity android:name="e.aman.araugmentedimagedemo2.MainActivity" >
+27-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:15:9-21:20
+27-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:17:17-69
+29-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:19:17-77
+31-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <meta-data
+35-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:22:9-80
+36            android:name="com.google.ar.core"
+36-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:22:20-53
+37            android:value="required" />
+37-->/home/aman/Android/coinzoom-android/ArAugmentedImageDemo2/app/src/main/AndroidManifest.xml:22:54-78
+38
+39        <activity
+39-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+40            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+40-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+41            android:excludeFromRecents="true"
+41-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+44        <!--
+45            Service handling Google Sign-In user revocation. For apps that do not integrate with
+46            Google Sign-In, this service will never be started.
+47        -->
+48        <service
+48-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+49            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+49-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+50            android:exported="true"
+50-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+51            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+51-->[com.google.android.gms:play-services-auth:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/febd3c20840096a7e7061d42e20b6ebf/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+52
+53        <activity
+53-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/4a66a514246720256d4d3cbc4e6665a6/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+54            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+54-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/4a66a514246720256d4d3cbc4e6665a6/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/4a66a514246720256d4d3cbc4e6665a6/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/4a66a514246720256d4d3cbc4e6665a6/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+57
+58        <meta-data
+58-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/be48eaae6896c5c4429e2f6f53c0fcdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+59            android:name="com.google.android.gms.version"
+59-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/be48eaae6896c5c4429e2f6f53c0fcdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+60            android:value="@integer/google_play_services_version" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+60-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/be48eaae6896c5c4429e2f6f53c0fcdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+61        <meta-data
+61-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:33:9-35:41
+62            android:name="com.google.ar.core.min_apk_version"
+62-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:34:13-62
+63            android:value="190310000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+63-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:35:13-38
+64        <activity
+64-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:37:9-43:80
+65            android:name="com.google.ar.core.InstallActivity"
+65-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:38:13-62
+66            android:configChanges="keyboardHidden|orientation|screenSize"
+66-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:39:13-74
+67            android:excludeFromRecents="true"
+67-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:40:13-46
+68            android:exported="false"
+68-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:41:13-37
+69            android:launchMode="singleTop"
+69-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:42:13-43
+70            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+70-->[com.google.ar:core:1.8.0] /home/aman/.gradle/caches/transforms-2/files-2.1/ee1291bb4e5649a4b0cca5b2a55a71b8/core-1.8.0/AndroidManifest.xml:43:13-77
+71    </application>
+72
+73</manifest>
